@@ -8,21 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		784ACB4428594496001086AE /* SproutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784ACB4328594496001086AE /* SproutApp.swift */; };
-		784ACB4628594496001086AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784ACB4528594496001086AE /* ContentView.swift */; };
 		784ACB4828594497001086AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784ACB4728594497001086AE /* Assets.xcassets */; };
 		784ACB4B28594497001086AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784ACB4A28594497001086AE /* Preview Assets.xcassets */; };
-		784ACB4D28594497001086AE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784ACB4C28594497001086AE /* Persistence.swift */; };
 		784ACB5028594497001086AE /* Sprout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 784ACB4E28594497001086AE /* Sprout.xcdatamodeld */; };
+		784ACB61285945C6001086AE /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784ACB60285945C6001086AE /* Webservice.swift */; };
+		784ACB6328595043001086AE /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784ACB6228595043001086AE /* CoreDataManager.swift */; };
+		784ACB65285953CA001086AE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784ACB64285953CA001086AE /* Constants.swift */; };
+		784ACB67285954A0001086AE /* Views+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784ACB66285954A0001086AE /* Views+Extensions.swift */; };
+		784ACB69285954D0001086AE /* VegetableDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784ACB68285954D0001086AE /* VegetableDTO.swift */; };
+		784ACB6B2859550C001086AE /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784ACB6A2859550C001086AE /* AboutUs.swift */; };
+		784ACB6D2859553A001086AE /* TwoColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784ACB6C2859553A001086AE /* TwoColumnView.swift */; };
+		784ACB6F28595562001086AE /* DescriptionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784ACB6E28595562001086AE /* DescriptionViews.swift */; };
+		784ACB7128595638001086AE /* VegetableListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784ACB7028595638001086AE /* VegetableListScreen.swift */; };
+		784ACB7328595681001086AE /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784ACB7228595681001086AE /* MainScreen.swift */; };
+		784ACB752859569C001086AE /* VegetableDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784ACB742859569C001086AE /* VegetableDetailScreen.swift */; };
+		784ACB772859590E001086AE /* VegetableListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784ACB762859590E001086AE /* VegetableListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		784ACB4028594496001086AE /* Sprout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sprout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		784ACB4328594496001086AE /* SproutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SproutApp.swift; sourceTree = "<group>"; };
-		784ACB4528594496001086AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		784ACB4728594497001086AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		784ACB4A28594497001086AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		784ACB4C28594497001086AE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		784ACB4F28594497001086AE /* Sprout.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sprout.xcdatamodel; sourceTree = "<group>"; };
+		784ACB60285945C6001086AE /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		784ACB6228595043001086AE /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		784ACB64285953CA001086AE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		784ACB66285954A0001086AE /* Views+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views+Extensions.swift"; sourceTree = "<group>"; };
+		784ACB68285954D0001086AE /* VegetableDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableDTO.swift; sourceTree = "<group>"; };
+		784ACB6A2859550C001086AE /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+		784ACB6C2859553A001086AE /* TwoColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColumnView.swift; sourceTree = "<group>"; };
+		784ACB6E28595562001086AE /* DescriptionViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViews.swift; sourceTree = "<group>"; };
+		784ACB7028595638001086AE /* VegetableListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableListScreen.swift; sourceTree = "<group>"; };
+		784ACB7228595681001086AE /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		784ACB742859569C001086AE /* VegetableDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableDetailScreen.swift; sourceTree = "<group>"; };
+		784ACB762859590E001086AE /* VegetableListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableListViewModel.swift; sourceTree = "<group>"; };
+		784ACB7828595A3E001086AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +76,17 @@
 		784ACB4228594496001086AE /* Sprout */ = {
 			isa = PBXGroup;
 			children = (
+				784ACB7828595A3E001086AE /* Info.plist */,
+				784ACB5F28594596001086AE /* DTOs */,
+				784ACB5E28594590001086AE /* Views */,
+				784ACB5D28594572001086AE /* Screens */,
+				784ACB5C2859456F001086AE /* ViewModels */,
+				784ACB5B2859456D001086AE /* Utils */,
+				784ACB5A28594569001086AE /* Extensions */,
+				784ACB572859455D001086AE /* Services */,
+				784ACB5628594555001086AE /* Manager */,
 				784ACB4328594496001086AE /* SproutApp.swift */,
-				784ACB4528594496001086AE /* ContentView.swift */,
 				784ACB4728594497001086AE /* Assets.xcassets */,
-				784ACB4C28594497001086AE /* Persistence.swift */,
 				784ACB4E28594497001086AE /* Sprout.xcdatamodeld */,
 				784ACB4928594497001086AE /* Preview Content */,
 			);
@@ -71,6 +99,74 @@
 				784ACB4A28594497001086AE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		784ACB5628594555001086AE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				784ACB6228595043001086AE /* CoreDataManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		784ACB572859455D001086AE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				784ACB60285945C6001086AE /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		784ACB5A28594569001086AE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				784ACB66285954A0001086AE /* Views+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		784ACB5B2859456D001086AE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				784ACB64285953CA001086AE /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		784ACB5C2859456F001086AE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				784ACB762859590E001086AE /* VegetableListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		784ACB5D28594572001086AE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				784ACB7028595638001086AE /* VegetableListScreen.swift */,
+				784ACB7228595681001086AE /* MainScreen.swift */,
+				784ACB742859569C001086AE /* VegetableDetailScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		784ACB5E28594590001086AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				784ACB6A2859550C001086AE /* AboutUs.swift */,
+				784ACB6C2859553A001086AE /* TwoColumnView.swift */,
+				784ACB6E28595562001086AE /* DescriptionViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		784ACB5F28594596001086AE /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				784ACB68285954D0001086AE /* VegetableDTO.swift */,
+			);
+			path = DTOs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +239,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				784ACB7328595681001086AE /* MainScreen.swift in Sources */,
+				784ACB65285953CA001086AE /* Constants.swift in Sources */,
+				784ACB6328595043001086AE /* CoreDataManager.swift in Sources */,
+				784ACB69285954D0001086AE /* VegetableDTO.swift in Sources */,
+				784ACB6B2859550C001086AE /* AboutUs.swift in Sources */,
+				784ACB752859569C001086AE /* VegetableDetailScreen.swift in Sources */,
+				784ACB67285954A0001086AE /* Views+Extensions.swift in Sources */,
+				784ACB6F28595562001086AE /* DescriptionViews.swift in Sources */,
+				784ACB7128595638001086AE /* VegetableListScreen.swift in Sources */,
 				784ACB5028594497001086AE /* Sprout.xcdatamodeld in Sources */,
-				784ACB4D28594497001086AE /* Persistence.swift in Sources */,
-				784ACB4628594496001086AE /* ContentView.swift in Sources */,
+				784ACB772859590E001086AE /* VegetableListViewModel.swift in Sources */,
+				784ACB61285945C6001086AE /* Webservice.swift in Sources */,
+				784ACB6D2859553A001086AE /* TwoColumnView.swift in Sources */,
 				784ACB4428594496001086AE /* SproutApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +384,8 @@
 				DEVELOPMENT_TEAM = WXJ275SWUQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sprout/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +415,8 @@
 				DEVELOPMENT_TEAM = WXJ275SWUQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sprout/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
